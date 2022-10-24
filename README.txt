@@ -49,3 +49,10 @@ their id order. For example if there are two houses with ids 1 and 3 that
 are available at the moment, first the house with id 1 is allocated if possible.
 For students, if there are two students with ids 123 and 126 whose rating
 criterion holds for a house, the student with id 123 gets the house.
+
+Output Format
+Your program should end when the waiting student list is empty. The
+output of your program is the list of students that couldn’t stay at any of
+the houses. You should create a .txt file and print one student name at a
+line. The output student list must be in ascending order of student id but
+only names will be printed in output file.
