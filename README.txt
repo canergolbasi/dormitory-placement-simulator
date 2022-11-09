@@ -19,6 +19,8 @@ of your choice and simulate the allocations until all students in the list
 graduate. In your simulation, check for matching houses and students at
 every new semester. The output of your simulation is the list of students
 who cannot stay at any house.
+
+Input Format
 The input will be given as a file argument. There are two types of input
 lines: house lines and student lines. The input lines will be in mixed order.
 You can assume that the input file is error free. You don’t have check for
@@ -56,3 +58,8 @@ output of your program is the list of students that couldn’t stay at any of
 the houses. You should create a .txt file and print one student name at a
 line. The output student list must be in ascending order of student id but
 only names will be printed in output file.
+
+Program will be compiled with below command:
+javac Project/src/*.java -d Project/bin -target 17
+The input and output files can be at any folder. 
+java project1main <inputfile> <outputfile>
